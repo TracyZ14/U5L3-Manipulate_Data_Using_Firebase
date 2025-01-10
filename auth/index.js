@@ -279,7 +279,7 @@ function postButtonPressed() {
    
     if (postBody) {
         addPostToDB(postBody, user)
-        // clearInputField(textareaEl)
+        clearInputField(textareaEl)
     }
 } 
 
